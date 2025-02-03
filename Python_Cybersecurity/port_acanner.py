@@ -17,7 +17,7 @@ def port_scanner():
     host = input("Enter the IP address: ")
     ports = range(1, 1025)  # Commun ports
 
-    print(f"\nEscaneando {host}...\n")
+    print(f"\nScanning {host}...\n")
 
     threads = []  # List to manage threads
     for port in ports:
